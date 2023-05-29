@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.container{
+    background-color: #000000;
+    width: 90%;
+    max-width: 420px;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+button{
+    border: none;
+    outline: none;
+    padding: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7c7c7c6b;
+}
+.box-average{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h2{
+    color: #ffffff;
+    font-size: 28px;
+}
+.temperature{
+    color: #ffffff;
+}
+.smaller-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.description{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.moisture{
+    color: #ffffff;
+}
